@@ -285,6 +285,7 @@ body {
 	height: 200px;
 	background-color: #e8e8e8;
 	margin-top: 10px;
+	clear: both;
 }
 
 .copyright_content {
@@ -322,3 +323,139 @@ body {
 .foot p {
 	text-align: center;
 }
+
+.list_main {
+	min-height: 350px;
+	height:350px;
+	background-color: #fff;
+	margin-top: 10px;
+
+}
+
+.news_type {
+	width: 220px;
+	height: 350px;
+	border: 1px solid #e8e8e8;
+	float: left;
+}
+
+.list_box {
+	width: 770px;
+	min-height: 350px;
+	_height:350px;
+	border: 1px solid #e8e8e8;
+    float: right;
+    background-color: #fff;
+}
+
+.news_type h2 {
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #666;
+    background:url(../images/titile_bg.gif) repeat-x;
+    padding-left: 20px;
+}
+
+.news_type_content {
+	height: 35px;
+	background: url(../images/content_bg.gif) repeat-x;
+	background-color: #fff;
+}
+
+.news_type_content li {
+	list-style-type: none;
+	height: 30px;
+	line-height: 30px;
+}
+
+.news_type_content li a {
+	color: #666;
+	text-decoration: none;
+	background: url(../images/li_bg.gif) no-repeat left center;
+	padding-left: 15px;
+	display: block;
+}
+
+.news_type_content li a:hover {
+	color: #009cdf;
+	background: url(../images/li_bg2.gif) no-repeat left center ;
+	background-color: #f2f2f2; 
+}
+
+.list_box h2 {
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #666;
+	height: 35px;
+	line-height: 35px;
+	background: url(../images/type_bg.png) repeat-x;
+	padding-left: 20px;
+}
+
+.page {
+	height: 40px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.page a {
+	border: 1px solid #e8e8e8;
+	text-decoration: none;
+	margin: 5px;
+	padding: 5px 10px;
+	display: inline-block;
+}
+
+.page a:link,.page a:visited {
+	color: #000;
+}
+
+.page a:hover,.page a:active {
+	color: #fff;
+	background-color: #cc1b1b;
+}
+
+.list_box h1{
+   font-size: 20px;
+   font-family: "微软雅黑";
+   text-align:  center;
+   margin: 10px 0;
+
+}
+
+.list_box_newsInfo {
+  color: #666;
+  text-align: center;
+  border-bottom: 1px dotted #666;
+}
+
+.list_box-newsContent {
+	font-size: 14px;
+	padding: 20px;
+	line-height: 25px;
+	text-indent: 2em; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
